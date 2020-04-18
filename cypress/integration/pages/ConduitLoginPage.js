@@ -1,4 +1,4 @@
-class LoginPage {
+class ConduitLoginPage {
 
     constructor() {}
 
@@ -10,4 +10,4 @@ class LoginPage {
         return cy.xpath('input[type="password"]');
     }
 
-}export default new LoginPage();
+}export default new ConduitLoginPage();

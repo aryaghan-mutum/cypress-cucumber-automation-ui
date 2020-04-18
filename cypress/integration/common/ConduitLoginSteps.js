@@ -1,5 +1,5 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps";
-import loginPage from "../pages/LoginPage";
+import conduitloginPage from "../pages/ConduitLoginPage";
 
 Given('I open Conduit login page', () => {
     cy.visit('https://react-redux.realworld.io/#/login')
