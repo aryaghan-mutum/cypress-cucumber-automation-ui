@@ -5,6 +5,6 @@ Feature: Facebook Login
     Given Open Facebook login page
     When I type in
         |  username  | password  |
-        |  anurag.muthyam@rocketmail.com | ilovecosmos@123  |
+        |  user | pass |
     Then click on Sign in button
     Then "Facebook Home Page" should be shown

@@ -1,6 +1,6 @@
 {
     "include": [
     "./node_modules/cypress",
-    "cypress/**/*.js", "cypress/integration/pages/LoginPage.ts", "cypress/integration/common/loginSteps.ts"
+    //"cypress/**/*.js", "cypress/integration/pages/LoginPage.js", "cypress/integration/common/loginSteps.js"
     ]
 }

@@ -67,6 +67,10 @@ Run all tests:
 - `./node_modules/.bin/cypress run`
 - `./node_modules/.bin/cypress run --headed`
 
+Run all spec files in the project
+- `npx cypress run`
+
+
 Run specific tests: 
 - `./node_modules/.bin/cypress run -spec cypress/integration/examples/regression/sample_test.spec.js`
 
