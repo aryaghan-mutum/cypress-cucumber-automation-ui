@@ -91,7 +91,21 @@ Note by default, Cypress runs all the tests present in `examples` dir under `int
 ##### install others
 ```shell
 - `npm install -D cypress-xpath`
+- `npm install chai`
+- `npm install --save-dev mochawesome`
 ```
+
+#### Useful VsCode extensions
+- `GitLens`
+-  `Material Theme`
+- `Live server`
+- `css peek`
+- `color highlight`
+- `bracket pair colorizer`
+- `es7`
+- `Prettier Now`
+- `Cucumber (Gherkin) Full Support`
+
 
 ##### Reference:
 `https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements`

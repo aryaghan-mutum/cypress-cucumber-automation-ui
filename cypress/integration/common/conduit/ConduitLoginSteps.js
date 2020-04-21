@@ -3,7 +3,7 @@ import conduitloginPage from "../../pages/conduit/ConduitLoginPage";
 
 Given('I open Conduit login page', () => {
     cy.visit('https://react-redux.realworld.io/#/login')
-  });
+});
   
   When('I type in', (datatable) => { 
     datatable.hashes().forEach(element => {
