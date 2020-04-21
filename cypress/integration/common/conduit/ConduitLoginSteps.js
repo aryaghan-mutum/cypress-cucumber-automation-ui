@@ -7,9 +7,7 @@ Given('I open Conduit login page', () => {
   
   When('I type in', (datatable) => { 
     datatable.hashes().forEach(element => {
-
         cy.get('input[type="email"]').type(element.username)
-        console.log("hello");
         cy.get('input[type="password"]').type(element.password)
     })
   })

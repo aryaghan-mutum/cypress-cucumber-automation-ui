@@ -89,8 +89,9 @@ Note by default, Cypress runs all the tests present in `examples` dir under `int
 - `cypress.json` - Located under the root directory. Used to store project configurations such as `baseUrl`, `port`, `env` etc.
 
 ##### install others
+```shell
 - `npm install -D cypress-xpath`
-
+```
 
 ##### Reference:
 `https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements`
