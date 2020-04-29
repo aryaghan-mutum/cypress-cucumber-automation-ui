@@ -1,5 +1,5 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
-//import facebookPage from '../../pages/facebook/FacebookLoginPage'
+//import facebookLoginPage from '../../pages/facebook/FacebookLoginPage'
 
 Given('Open Facebook login page', () => {
     cy.visit('https://facebook.com')
