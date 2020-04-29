@@ -1,17 +1,14 @@
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
-//import facebookLoginPage from '../../pages/facebook/FacebookLoginPage'
+import facebookLoginPage from '../../pages/facebook/FacebookLoginPage'
 
 Given('Open Facebook login page', () => {
-    cy.visit('https://facebook.com')
+    facebookLoginPage.openFacebookUrl()
 })
 
-When('Set credentials and login', (datatable) => {
-	datatable.hashes().forEach((element) => {
-		cy.get('#email').type(element.username)
-	    cy.get('#pass').type(element.password)
-    })
+When('Set username {string} and password {string}', (username, password) => {
+	facebookLoginPage.setPassword(username).setPassword(password)
 })
 
 Then('Click Sign in button', () => {
-    cy.contains('Log In').should('be.visible').click();
+    facebookLoginPage.signIn()
 })

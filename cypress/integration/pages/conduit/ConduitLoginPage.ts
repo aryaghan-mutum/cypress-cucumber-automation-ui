@@ -1,6 +1,6 @@
 import {BasePage} from "../BasePage"
 
-class ConduitLoginPage extends BasePage{
+class ConduitLoginPage extends BasePage {
 
     private readonly conduitUrl = 'https://react-redux.realworld.io/#/login'
 
@@ -9,6 +9,7 @@ class ConduitLoginPage extends BasePage{
     }
 
     public visitConduit() {
+        debugger
         cy.visit(this.conduitUrl)
         return this
     }
