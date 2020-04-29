@@ -67,9 +67,12 @@ Run all tests:
 - `./node_modules/.bin/cypress run`
 - `./node_modules/.bin/cypress run --headed`
 
+
+Run specific tests
+- `npx cypress run --spec copy_relative_path_of_the_test_file.js`
+
 Run all spec files in the project
 - `npx cypress run`
-
 
 Run specific tests: 
 - `./node_modules/.bin/cypress run -spec cypress/integration/examples/regression/sample_test.spec.js`
@@ -91,7 +94,29 @@ Note by default, Cypress runs all the tests present in `examples` dir under `int
 ##### install others
 ```shell
 - `npm install -D cypress-xpath`
+- `npm install chai`
+- `npm install --save-dev mochawesome`
 ```
+
+##### Useful VsCode extensions
+- `GitLens`
+-  `Material Theme` mac: cmd-k cmd-T
+- `Live server`
+- `css peek`
+- `color highlight`
+- `bracket pair colorizer`
+- `es7`
+- `Prettier Now`
+- `Cucumber (Gherkin) Full Support`
+- `Debug for Chrome`
+
+
+#### upgrade or downgrade node version:
+- `https://www.surrealcms.com/blog/how-to-upgrade-or-downgrade-nodejs-using-npm.html`
+
+##### Auto indent
+mac: `Shift + Option + F`
+windows: `Shift + Alt + F`
 
 ##### Reference:
 `https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements`
