@@ -98,7 +98,7 @@ Note by default, Cypress runs all the tests present in `examples` dir under `int
 - `npm install --save-dev mochawesome`
 ```
 
-#### Useful VsCode extensions
+##### Useful VsCode extensions
 - `GitLens`
 -  `Material Theme` mac: cmd-k cmd-T
 - `Live server`
@@ -110,6 +110,13 @@ Note by default, Cypress runs all the tests present in `examples` dir under `int
 - `Cucumber (Gherkin) Full Support`
 - `Debug for Chrome`
 
+
+#### upgrade or downgrade node version:
+- `https://www.surrealcms.com/blog/how-to-upgrade-or-downgrade-nodejs-using-npm.html`
+
+##### Auto indent
+mac: `Shift + Option + F`
+windows: `Shift + Alt + F`
 
 ##### Reference:
 `https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements`

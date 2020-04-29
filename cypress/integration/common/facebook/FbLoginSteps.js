@@ -1,19 +1,17 @@
-import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
-
-const url = 'https://facebook.com';
+import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
+//import facebookPage from '../../pages/facebook/FacebookLoginPage'
 
 Given('Open Facebook login page', () => {
-	cy.visit(url);
+    cy.visit('https://facebook.com')
 })
 
-When('Set username and password', (datatable) => {
+When('Set credentials and login', (datatable) => {
 	datatable.hashes().forEach((element) => {
-		cy.get('input[id="email"]').type(element.username)
-        cy.get('input[name="pass"]').type(element.password)
-	});
+		cy.get('#email').type(element.username)
+	    cy.get('#pass').type(element.password)
+    })
 })
 
 Then('Click Sign in button', () => {
     cy.contains('Log In').should('be.visible').click();
 })
-
