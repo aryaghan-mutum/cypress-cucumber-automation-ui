@@ -11,10 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.2.0",
-    "cypress": "^4.4.0"
+    "cypress": "^4.12.1"
   },
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "^5.1.2",
+    "@cypress/webpack-preprocessor": "^5.4.2",
     "@types/cypress-cucumber-preprocessor": "^1.14.1",
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
